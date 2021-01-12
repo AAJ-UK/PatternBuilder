@@ -9,10 +9,10 @@ namespace PatternBuilder
     class Program
     {/// <summary>
      /// Builder Pattern
-     /// This pattern allows you to construct a class that is a complex collection of smaller objects. The collection of smaller 
-     /// onjects could get quite complicated
+     /// This pattern allows you to construct a class that is a complex collection of smaller objects. 
+     /// The collection of smaller objects can be developed 'on the fly' and could get quite complicated.
      /// for instance you may have a number of completely different physical items to add to a box, and you choose the box depending on the weight 
-     /// of the items. Each item and the box/envelope itsself might have a cost assoctiated with it. 
+     /// of the items. Each item and the box/envelope itsself might have a cost associated with it. 
      /// 
      /// 
      /// This is a similar but simpler example where you manually select your packaging size, but it would be 
