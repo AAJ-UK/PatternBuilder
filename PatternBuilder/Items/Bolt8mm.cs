@@ -6,8 +6,7 @@ namespace PatternBuilder.Items
 {
     class Bolt8mm : Bolt
     {
-
-      
+              
         public Bolt8mm()
         {
             Description = "8mm";

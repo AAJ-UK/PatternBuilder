@@ -4,6 +4,9 @@ using System.Text;
 
 namespace PatternBuilder.Packaging
 {
+    /// <summary>
+    /// Define an abstract box. Any other box that inherits this class will by default implement IPackaging
+    /// </summary>
     public abstract class Envelope : IPackaging
     {
         public decimal Cost { get; set; }

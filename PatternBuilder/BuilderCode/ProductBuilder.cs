@@ -7,6 +7,10 @@ using System.Text;
 
 namespace PatternBuilder.BuilderCode
 {
+    /// <summary>
+    /// Provide a number of methods that build up a product and return it
+    /// This could be replaced with a system to allow the user to build the products up
+    /// </summary>
     class ProductBuilder
     {
 
@@ -61,7 +65,7 @@ namespace PatternBuilder.BuilderCode
             {
                 ProductName = "Product Type 5"
             };
-            p.AddItem(new Bolt8mm());       
+            p.AddItem(new Bolt8mm());
             p.AddPackaging(new EnvelopeSmall());
             return p;
         }
