@@ -1,6 +1,5 @@
 ﻿using PatternBuilder.BuilderCode;
 using PatternBuilder.Items;
-using PatternBuilder.Packaging;
 using PatternBuilder.Production;
 using System;
 using System.Collections.Generic;
