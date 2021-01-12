@@ -8,7 +8,7 @@ namespace PatternBuilder.Items
     {
          public Nut10mm()
         {
-            Description = "10mm";
+            Description = "10mm Nut";
             Cost = 0.37M;
         }
 

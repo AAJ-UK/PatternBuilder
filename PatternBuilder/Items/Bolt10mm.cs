@@ -10,7 +10,7 @@ namespace PatternBuilder.Items
 
         public Bolt10mm()
         {
-            Description = "8mm";
+            Description = "8mm Bolt";
             Cost = 0.56M;
         }
 
